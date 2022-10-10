@@ -13,7 +13,6 @@ public class Main {
         while (total <= 2_459_000) {
             total = total + total / 100;
             total = total + salary;
-
             System.out.println("Месяц " + i + ", сумма накопление " + total + " рублей");
             i++;
 
